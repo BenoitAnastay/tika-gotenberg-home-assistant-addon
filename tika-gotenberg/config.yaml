@@ -4,8 +4,7 @@ version: dev
 slug: tika-gotenberg
 url: https://github.com/BenoitAnastay/tika-gotenberg-home-assistant-addon
 init: false
-description:
-  An extension for paperless addon to use Tika and Gotenberg
+description: An extension for paperless addon to use Tika and Gotenberg
 arch:
   - aarch64
   - amd64

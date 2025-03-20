@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec java -cp "/usr/bin/tika-server-standard.jar:/tika-extras/*" org.apache.tika.server.core.TikaServerCli -h 0.0.0.0 $0 $@
+exec java -cp "/usr/bin/tika-server-standard.jar:/tika-extras/*" org.apache.tika.server.core.TikaServerCli -h 0.0.0.0 "$0" "$@"

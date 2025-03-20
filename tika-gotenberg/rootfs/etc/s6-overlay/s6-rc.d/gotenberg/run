@@ -1,0 +1,3 @@
+#!/command/with-contenv bashio
+cd /home/gotenberg
+exec s6-setuidgid gotenberg /usr/bin/gotenberg
